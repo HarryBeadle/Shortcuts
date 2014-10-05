@@ -1,15 +1,25 @@
-# Shortcuts *beta*#
+# Shortcuts *Beta*
 
-Adds a suite of shortcuts to OS X. To install download the `.zip` from [harrybeadle.co.uk](http://harrybeadle.co.uk/Shortcuts/index.html) and follow the instructions in `InstallHelp.md`.
+A suite of Mac OS X services that add functionality to your Mac. These range from opening a web-page in a mobile-style window, allowing for quick wikipedia searches and hash-tag look-ups without leaving your app or webpage, to organising your window arrangement.
 
-## Notes and Future Features ##
+The best bit about it? These are all `.workflow` files, you can edit them in Automator to add additional functionality. If you want to get really deep you can edit the scripts in Python too; the scripts are well commented and documented to help you edit and understand them (the majority of them are just string manipulation anyway).
 
- - If, for any reason, the service fails you will be presented with an error message. Normally this is because of the application itself and not the services. If the application is throwing errors in all applications try re-installing the services.
- 
- - In some cases your own keyboard shortcuts just plain wont work. Our recommendation is that you use `Ctrl-Alt-Cmd` and `Arrow Keys` for your shortcuts, as these ones worked for us.
- 
- - In the future there will be an install package that will automatically set the shortcuts, along with more services.
- 
-## Troubleshooting ##
+## Web-Shortcuts ##
 
-Your shortcuts are probably the problem. Try going to the application menu (on the top left of your screen, next to the apple logo.) and then selecting services and then clicking on one of our services. If this doesn't work, then re-install. If it works, try changing your keyboard shortcuts.
+A set of OS X services that opens a iPhone-sized mobile window over the top of your current application. What happens is based on your text selection when you activate the shortcut.
+
+![From Left to Right: Wikipedia, Google, Twitter,](Screenshots.jpg)
+
+**Wikipeda**: Searches Wikipedia with your current selection.  
+**Twitter**: Give the latest tweets using the selected text as a Hashtag. All spaces are removed.  
+**Google**: Searches Google with your current selection.  
+**Bing**: Searches Bing with your current selection.  
+*More coming soon!*
+
+## Window-Shortcuts ##
+
+A set of three OS X services based on AppleScript that adjust the placement of your window.
+
+**Move Window Left**: Moves the current window to the left half of the screen.
+**Move Window Right**: Moves the current window to the right half of the screen.
+**Maximise Window**: Makes the window fill the whole of the screen (not in fullscreen mode, though).
