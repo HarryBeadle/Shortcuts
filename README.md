@@ -8,8 +8,6 @@ The best bit about it? These are all `.workflow` files, you can edit them in Aut
 
 A set of OS X services that opens a iPhone-sized mobile window over the top of your current application. What happens is based on your text selection when you activate the shortcut.
 
-![From Left to Right: Wikipedia, Google, Twitter,](Screenshots.jpg)
-
 **Wikipeda**: Searches Wikipedia with your current selection.  
 **Twitter**: Give the latest tweets using the selected text as a Hashtag. All spaces are removed.  
 **Google**: Searches Google with your current selection.  
